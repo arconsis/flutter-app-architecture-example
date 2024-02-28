@@ -1,16 +1,16 @@
 # flutter_architecture
 
-A project using the recommended architecture for Android applied to Flutter
+A project applying the recommended app architecture for Android to Flutter.
+You can learn more about the concepts of that architecture [here](https://developer.android.com/topic/architecture)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To access the movie api you need to get an API key from [here](https://developer.themoviedb.org/reference/intro/authentication#api-key-quick-start).
+Then create a file assets/config.json.
+Add the api key into this file like the following:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+{
+  "apiKey": "your_key"
+}
+```
